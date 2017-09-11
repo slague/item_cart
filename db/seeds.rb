@@ -8,5 +8,5 @@
 
 
 10.times do |i|
-  Item.create!(name: "Item #{i}", description: "Description for item #{i}")
+  Item.create!(name: "Item #{i+1}", description: "Description for item #{i+1}")
 end
